@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35C8FE0B1AA29D8A003FD6C9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C8FE0A1AA29D8A003FD6C9 /* CFNetwork.framework */; };
+		35C8FE0D1AA29D8A003FD6C9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C8FE0C1AA29D8A003FD6C9 /* Security.framework */; };
+		35C8FE0F1AA29D8A003FD6C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C8FE0E1AA29D8A003FD6C9 /* SystemConfiguration.framework */; };
+		35C8FE141AA29D8A003FD6C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FE131AA29D8A003FD6C9 /* main.m */; };
+		35C8FE171AA29D8A003FD6C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FE161AA29D8A003FD6C9 /* AppDelegate.m */; };
+		35C8FE1A1AA29D8A003FD6C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C8FE181AA29D8A003FD6C9 /* Main.storyboard */; };
+		35C8FE1F1AA29D8A003FD6C9 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C8FE1E1AA29D8A003FD6C9 /* Firebase.framework */; };
+		35C8FE211AA29D8A003FD6C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C8FE201AA29D8A003FD6C9 /* Images.xcassets */; };
+		35C8FE241AA29D8A003FD6C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35C8FE221AA29D8A003FD6C9 /* LaunchScreen.xib */; };
+		35C8FE301AA29D8A003FD6C9 /* LoaneeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FE2F1AA29D8A003FD6C9 /* LoaneeTests.m */; };
+		35C8FE3B1AA29DAF003FD6C9 /* LoggedOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FE3A1AA29DAF003FD6C9 /* LoggedOutViewController.m */; };
+		35C8FEAC1AA2A111003FD6C9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 35C8FEAB1AA2A111003FD6C9 /* Podfile */; };
+		35C8FEB01AA2B708003FD6C9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEAF1AA2B708003FD6C9 /* SWRevealViewController.m */; };
+		35C8FEB51AA2B711003FD6C9 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEB21AA2B711003FD6C9 /* MenuTableViewController.m */; };
+		35C8FEB61AA2B711003FD6C9 /* PendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEB41AA2B711003FD6C9 /* PendingViewController.m */; };
+		35C8FEB91AA2B717003FD6C9 /* InviteFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEB81AA2B717003FD6C9 /* InviteFriendsViewController.m */; };
+		35C8FEBE1AA2B71D003FD6C9 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEBB1AA2B71D003FD6C9 /* FriendsViewController.m */; };
+		35C8FEBF1AA2B71D003FD6C9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEBD1AA2B71D003FD6C9 /* HomeViewController.m */; };
+		8BC77984BD7E1C17D6648678 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3186B537323F1509F126935 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35C8FE2A1AA29D8A003FD6C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35C8FDFF1AA29D8A003FD6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35C8FE061AA29D8A003FD6C9;
+			remoteInfo = Loanee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0311147D0A647E04DCAB42F0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		35C8FE071AA29D8A003FD6C9 /* Loanee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loanee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C8FE0A1AA29D8A003FD6C9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		35C8FE0C1AA29D8A003FD6C9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		35C8FE0E1AA29D8A003FD6C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		35C8FE121AA29D8A003FD6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C8FE131AA29D8A003FD6C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35C8FE151AA29D8A003FD6C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35C8FE161AA29D8A003FD6C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35C8FE191AA29D8A003FD6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35C8FE1E1AA29D8A003FD6C9 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = /Users/Shared/Firebase/Frameworks/Firebase.framework; sourceTree = "<absolute>"; };
+		35C8FE201AA29D8A003FD6C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		35C8FE231AA29D8A003FD6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		35C8FE291AA29D8A003FD6C9 /* LoaneeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoaneeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C8FE2E1AA29D8A003FD6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C8FE2F1AA29D8A003FD6C9 /* LoaneeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoaneeTests.m; sourceTree = "<group>"; };
+		35C8FE391AA29DAF003FD6C9 /* LoggedOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggedOutViewController.h; sourceTree = "<group>"; };
+		35C8FE3A1AA29DAF003FD6C9 /* LoggedOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggedOutViewController.m; sourceTree = "<group>"; };
+		35C8FEAB1AA2A111003FD6C9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		35C8FEAE1AA2B708003FD6C9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		35C8FEAF1AA2B708003FD6C9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		35C8FEB11AA2B711003FD6C9 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		35C8FEB21AA2B711003FD6C9 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		35C8FEB31AA2B711003FD6C9 /* PendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PendingViewController.h; sourceTree = "<group>"; };
+		35C8FEB41AA2B711003FD6C9 /* PendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PendingViewController.m; sourceTree = "<group>"; };
+		35C8FEB71AA2B717003FD6C9 /* InviteFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteFriendsViewController.h; sourceTree = "<group>"; };
+		35C8FEB81AA2B717003FD6C9 /* InviteFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteFriendsViewController.m; sourceTree = "<group>"; };
+		35C8FEBA1AA2B71D003FD6C9 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		35C8FEBB1AA2B71D003FD6C9 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		35C8FEBC1AA2B71D003FD6C9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		35C8FEBD1AA2B71D003FD6C9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A3186B537323F1509F126935 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DB68B26A5CB1EACA256E4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35C8FE041AA29D8A003FD6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C8FE0D1AA29D8A003FD6C9 /* Security.framework in Frameworks */,
+				35C8FE0F1AA29D8A003FD6C9 /* SystemConfiguration.framework in Frameworks */,
+				35C8FE0B1AA29D8A003FD6C9 /* CFNetwork.framework in Frameworks */,
+				35C8FE1F1AA29D8A003FD6C9 /* Firebase.framework in Frameworks */,
+				8BC77984BD7E1C17D6648678 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C8FE261AA29D8A003FD6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35C8FDFE1AA29D8A003FD6C9 = {
+			isa = PBXGroup;
+			children = (
+				35C8FEAB1AA2A111003FD6C9 /* Podfile */,
+				35C8FE101AA29D8A003FD6C9 /* Loanee */,
+				35C8FE2C1AA29D8A003FD6C9 /* LoaneeTests */,
+				35C8FE091AA29D8A003FD6C9 /* Frameworks */,
+				35C8FE081AA29D8A003FD6C9 /* Products */,
+				7D69B2E145A29B74F308E4E0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		35C8FE081AA29D8A003FD6C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35C8FE071AA29D8A003FD6C9 /* Loanee.app */,
+				35C8FE291AA29D8A003FD6C9 /* LoaneeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35C8FE091AA29D8A003FD6C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35C8FEAD1AA2B708003FD6C9 /* SlideOutMenuFiles */,
+				35C8FE0A1AA29D8A003FD6C9 /* CFNetwork.framework */,
+				35C8FE0C1AA29D8A003FD6C9 /* Security.framework */,
+				35C8FE0E1AA29D8A003FD6C9 /* SystemConfiguration.framework */,
+				A3186B537323F1509F126935 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35C8FE101AA29D8A003FD6C9 /* Loanee */ = {
+			isa = PBXGroup;
+			children = (
+				35C8FE151AA29D8A003FD6C9 /* AppDelegate.h */,
+				35C8FE161AA29D8A003FD6C9 /* AppDelegate.m */,
+				35C8FE181AA29D8A003FD6C9 /* Main.storyboard */,
+				35C8FE3D1AA29DD7003FD6C9 /* Views */,
+				35C8FE1E1AA29D8A003FD6C9 /* Firebase.framework */,
+				35C8FE201AA29D8A003FD6C9 /* Images.xcassets */,
+				35C8FE221AA29D8A003FD6C9 /* LaunchScreen.xib */,
+				35C8FE111AA29D8A003FD6C9 /* Supporting Files */,
+			);
+			path = Loanee;
+			sourceTree = "<group>";
+		};
+		35C8FE111AA29D8A003FD6C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35C8FE121AA29D8A003FD6C9 /* Info.plist */,
+				35C8FE131AA29D8A003FD6C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35C8FE2C1AA29D8A003FD6C9 /* LoaneeTests */ = {
+			isa = PBXGroup;
+			children = (
+				35C8FE2F1AA29D8A003FD6C9 /* LoaneeTests.m */,
+				35C8FE2D1AA29D8A003FD6C9 /* Supporting Files */,
+			);
+			path = LoaneeTests;
+			sourceTree = "<group>";
+		};
+		35C8FE2D1AA29D8A003FD6C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35C8FE2E1AA29D8A003FD6C9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35C8FE3C1AA29DCD003FD6C9 /* LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+				35C8FE391AA29DAF003FD6C9 /* LoggedOutViewController.h */,
+				35C8FE3A1AA29DAF003FD6C9 /* LoggedOutViewController.m */,
+			);
+			name = LoginFlow;
+			sourceTree = "<group>";
+		};
+		35C8FE3D1AA29DD7003FD6C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35C8FEB11AA2B711003FD6C9 /* MenuTableViewController.h */,
+				35C8FEBA1AA2B71D003FD6C9 /* FriendsViewController.h */,
+				35C8FEBB1AA2B71D003FD6C9 /* FriendsViewController.m */,
+				35C8FEBC1AA2B71D003FD6C9 /* HomeViewController.h */,
+				35C8FEBD1AA2B71D003FD6C9 /* HomeViewController.m */,
+				35C8FEB21AA2B711003FD6C9 /* MenuTableViewController.m */,
+				35C8FEB71AA2B717003FD6C9 /* InviteFriendsViewController.h */,
+				35C8FEB81AA2B717003FD6C9 /* InviteFriendsViewController.m */,
+				35C8FEB31AA2B711003FD6C9 /* PendingViewController.h */,
+				35C8FEB41AA2B711003FD6C9 /* PendingViewController.m */,
+				35C8FE3C1AA29DCD003FD6C9 /* LoginFlow */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		35C8FEAD1AA2B708003FD6C9 /* SlideOutMenuFiles */ = {
+			isa = PBXGroup;
+			children = (
+				35C8FEAE1AA2B708003FD6C9 /* SWRevealViewController.h */,
+				35C8FEAF1AA2B708003FD6C9 /* SWRevealViewController.m */,
+			);
+			path = SlideOutMenuFiles;
+			sourceTree = "<group>";
+		};
+		7D69B2E145A29B74F308E4E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0311147D0A647E04DCAB42F0 /* Pods.debug.xcconfig */,
+				F6DB68B26A5CB1EACA256E4C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35C8FE061AA29D8A003FD6C9 /* Loanee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C8FE331AA29D8A003FD6C9 /* Build configuration list for PBXNativeTarget "Loanee" */;
+			buildPhases = (
+				BA6117E0FDE22096410D269F /* Check Pods Manifest.lock */,
+				35C8FE031AA29D8A003FD6C9 /* Sources */,
+				35C8FE041AA29D8A003FD6C9 /* Frameworks */,
+				35C8FE051AA29D8A003FD6C9 /* Resources */,
+				90E637715C52AAC1EB05633B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Loanee;
+			productName = Loanee;
+			productReference = 35C8FE071AA29D8A003FD6C9 /* Loanee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35C8FE281AA29D8A003FD6C9 /* LoaneeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C8FE361AA29D8A003FD6C9 /* Build configuration list for PBXNativeTarget "LoaneeTests" */;
+			buildPhases = (
+				35C8FE251AA29D8A003FD6C9 /* Sources */,
+				35C8FE261AA29D8A003FD6C9 /* Frameworks */,
+				35C8FE271AA29D8A003FD6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35C8FE2B1AA29D8A003FD6C9 /* PBXTargetDependency */,
+			);
+			name = LoaneeTests;
+			productName = LoaneeTests;
+			productReference = 35C8FE291AA29D8A003FD6C9 /* LoaneeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35C8FDFF1AA29D8A003FD6C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = makr.space;
+				TargetAttributes = {
+					35C8FE061AA29D8A003FD6C9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					35C8FE281AA29D8A003FD6C9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 35C8FE061AA29D8A003FD6C9;
+					};
+				};
+			};
+			buildConfigurationList = 35C8FE021AA29D8A003FD6C9 /* Build configuration list for PBXProject "Loanee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35C8FDFE1AA29D8A003FD6C9;
+			productRefGroup = 35C8FE081AA29D8A003FD6C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35C8FE061AA29D8A003FD6C9 /* Loanee */,
+				35C8FE281AA29D8A003FD6C9 /* LoaneeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35C8FE051AA29D8A003FD6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C8FE1A1AA29D8A003FD6C9 /* Main.storyboard in Resources */,
+				35C8FE241AA29D8A003FD6C9 /* LaunchScreen.xib in Resources */,
+				35C8FEAC1AA2A111003FD6C9 /* Podfile in Resources */,
+				35C8FE211AA29D8A003FD6C9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C8FE271AA29D8A003FD6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90E637715C52AAC1EB05633B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA6117E0FDE22096410D269F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35C8FE031AA29D8A003FD6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C8FEB91AA2B717003FD6C9 /* InviteFriendsViewController.m in Sources */,
+				35C8FE171AA29D8A003FD6C9 /* AppDelegate.m in Sources */,
+				35C8FE3B1AA29DAF003FD6C9 /* LoggedOutViewController.m in Sources */,
+				35C8FEB61AA2B711003FD6C9 /* PendingViewController.m in Sources */,
+				35C8FEBE1AA2B71D003FD6C9 /* FriendsViewController.m in Sources */,
+				35C8FEBF1AA2B71D003FD6C9 /* HomeViewController.m in Sources */,
+				35C8FE141AA29D8A003FD6C9 /* main.m in Sources */,
+				35C8FEB01AA2B708003FD6C9 /* SWRevealViewController.m in Sources */,
+				35C8FEB51AA2B711003FD6C9 /* MenuTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C8FE251AA29D8A003FD6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C8FE301AA29D8A003FD6C9 /* LoaneeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35C8FE2B1AA29D8A003FD6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35C8FE061AA29D8A003FD6C9 /* Loanee */;
+			targetProxy = 35C8FE2A1AA29D8A003FD6C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35C8FE181AA29D8A003FD6C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C8FE191AA29D8A003FD6C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35C8FE221AA29D8A003FD6C9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C8FE231AA29D8A003FD6C9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35C8FE311AA29D8A003FD6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35C8FE321AA29D8A003FD6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35C8FE341AA29D8A003FD6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0311147D0A647E04DCAB42F0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Shared/Firebase/Frameworks,
+				);
+				INFOPLIST_FILE = Loanee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-licucore",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35C8FE351AA29D8A003FD6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DB68B26A5CB1EACA256E4C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Shared/Firebase/Frameworks,
+				);
+				INFOPLIST_FILE = Loanee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-licucore",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		35C8FE371AA29D8A003FD6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoaneeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loanee.app/Loanee";
+			};
+			name = Debug;
+		};
+		35C8FE381AA29D8A003FD6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoaneeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loanee.app/Loanee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35C8FE021AA29D8A003FD6C9 /* Build configuration list for PBXProject "Loanee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C8FE311AA29D8A003FD6C9 /* Debug */,
+				35C8FE321AA29D8A003FD6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C8FE331AA29D8A003FD6C9 /* Build configuration list for PBXNativeTarget "Loanee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C8FE341AA29D8A003FD6C9 /* Debug */,
+				35C8FE351AA29D8A003FD6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C8FE361AA29D8A003FD6C9 /* Build configuration list for PBXNativeTarget "LoaneeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C8FE371AA29D8A003FD6C9 /* Debug */,
+				35C8FE381AA29D8A003FD6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35C8FDFF1AA29D8A003FD6C9 /* Project object */;
+}
