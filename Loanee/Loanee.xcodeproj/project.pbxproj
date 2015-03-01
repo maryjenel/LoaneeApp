@@ -18,13 +18,14 @@
 		35C8FE241AA29D8A003FD6C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35C8FE221AA29D8A003FD6C9 /* LaunchScreen.xib */; };
 		35C8FE301AA29D8A003FD6C9 /* LoaneeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FE2F1AA29D8A003FD6C9 /* LoaneeTests.m */; };
 		35C8FE3B1AA29DAF003FD6C9 /* LoggedOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FE3A1AA29DAF003FD6C9 /* LoggedOutViewController.m */; };
-		35C8FEAC1AA2A111003FD6C9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 35C8FEAB1AA2A111003FD6C9 /* Podfile */; };
 		35C8FEB01AA2B708003FD6C9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEAF1AA2B708003FD6C9 /* SWRevealViewController.m */; };
 		35C8FEB51AA2B711003FD6C9 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEB21AA2B711003FD6C9 /* MenuTableViewController.m */; };
 		35C8FEB61AA2B711003FD6C9 /* PendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEB41AA2B711003FD6C9 /* PendingViewController.m */; };
 		35C8FEB91AA2B717003FD6C9 /* InviteFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEB81AA2B717003FD6C9 /* InviteFriendsViewController.m */; };
 		35C8FEBE1AA2B71D003FD6C9 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEBB1AA2B71D003FD6C9 /* FriendsViewController.m */; };
 		35C8FEBF1AA2B71D003FD6C9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEBD1AA2B71D003FD6C9 /* HomeViewController.m */; };
+		35C8FEC11AA2BB59003FD6C9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 35C8FEC01AA2BB59003FD6C9 /* Podfile */; };
+		35C8FEC41AA2C7BA003FD6C9 /* venmoUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C8FEC31AA2C7BA003FD6C9 /* venmoUser.m */; };
 		8BC77984BD7E1C17D6648678 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3186B537323F1509F126935 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +58,6 @@
 		35C8FE2F1AA29D8A003FD6C9 /* LoaneeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoaneeTests.m; sourceTree = "<group>"; };
 		35C8FE391AA29DAF003FD6C9 /* LoggedOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggedOutViewController.h; sourceTree = "<group>"; };
 		35C8FE3A1AA29DAF003FD6C9 /* LoggedOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggedOutViewController.m; sourceTree = "<group>"; };
-		35C8FEAB1AA2A111003FD6C9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		35C8FEAE1AA2B708003FD6C9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		35C8FEAF1AA2B708003FD6C9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		35C8FEB11AA2B711003FD6C9 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
@@ -70,6 +70,9 @@
 		35C8FEBB1AA2B71D003FD6C9 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
 		35C8FEBC1AA2B71D003FD6C9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		35C8FEBD1AA2B71D003FD6C9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		35C8FEC01AA2BB59003FD6C9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		35C8FEC21AA2C7BA003FD6C9 /* venmoUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = venmoUser.h; path = ../venmoUser.h; sourceTree = "<group>"; };
+		35C8FEC31AA2C7BA003FD6C9 /* venmoUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = venmoUser.m; path = ../venmoUser.m; sourceTree = "<group>"; };
 		A3186B537323F1509F126935 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DB68B26A5CB1EACA256E4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,7 +103,7 @@
 		35C8FDFE1AA29D8A003FD6C9 = {
 			isa = PBXGroup;
 			children = (
-				35C8FEAB1AA2A111003FD6C9 /* Podfile */,
+				35C8FEC01AA2BB59003FD6C9 /* Podfile */,
 				35C8FE101AA29D8A003FD6C9 /* Loanee */,
 				35C8FE2C1AA29D8A003FD6C9 /* LoaneeTests */,
 				35C8FE091AA29D8A003FD6C9 /* Frameworks */,
@@ -133,6 +136,7 @@
 		35C8FE101AA29D8A003FD6C9 /* Loanee */ = {
 			isa = PBXGroup;
 			children = (
+				35C8FEC51AA2C7C3003FD6C9 /* Model */,
 				35C8FE151AA29D8A003FD6C9 /* AppDelegate.h */,
 				35C8FE161AA29D8A003FD6C9 /* AppDelegate.m */,
 				35C8FE181AA29D8A003FD6C9 /* Main.storyboard */,
@@ -205,6 +209,15 @@
 				35C8FEAF1AA2B708003FD6C9 /* SWRevealViewController.m */,
 			);
 			path = SlideOutMenuFiles;
+			sourceTree = "<group>";
+		};
+		35C8FEC51AA2C7C3003FD6C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35C8FEC21AA2C7BA003FD6C9 /* venmoUser.h */,
+				35C8FEC31AA2C7BA003FD6C9 /* venmoUser.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		7D69B2E145A29B74F308E4E0 /* Pods */ = {
@@ -300,7 +313,7 @@
 			files = (
 				35C8FE1A1AA29D8A003FD6C9 /* Main.storyboard in Resources */,
 				35C8FE241AA29D8A003FD6C9 /* LaunchScreen.xib in Resources */,
-				35C8FEAC1AA2A111003FD6C9 /* Podfile in Resources */,
+				35C8FEC11AA2BB59003FD6C9 /* Podfile in Resources */,
 				35C8FE211AA29D8A003FD6C9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35C8FEC41AA2C7BA003FD6C9 /* venmoUser.m in Sources */,
 				35C8FEB91AA2B717003FD6C9 /* InviteFriendsViewController.m in Sources */,
 				35C8FE171AA29D8A003FD6C9 /* AppDelegate.m in Sources */,
 				35C8FE3B1AA29DAF003FD6C9 /* LoggedOutViewController.m in Sources */,
