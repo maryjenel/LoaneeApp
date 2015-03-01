@@ -1,1 +1,2 @@
 pod 'Venmo-iOS-SDK', '~>1.3'
+pod 'SDWebImage', '~>3.6'
